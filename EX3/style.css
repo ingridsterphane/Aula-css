@@ -1,0 +1,30 @@
+.alternada {
+    list-style: upper-alpha;
+    font-size: 30px;
+    color: indigo;
+    width: fit-content;
+}
+
+.alternada li:nth-child(odd){
+    background-color: lightblue;
+
+}
+
+.alternada li:nth-child(even){
+    background-color: khaki;
+
+}
+
+
+
+/* COMENTÁRIOS
+odd: especifica um elemento filho ímpar de um elemento pai;
+even: especifica um elemento filho par de um elemento pai;
+nth-child: especifica um elemento filho específico de um elemento pai;
+fit-content: especifica que o elemento deve ter o tamanho mínimo necessário para conter o seu conteúdo;
+list-style: especifica o estilo da lista,
+lower-roman: especifica que a lista deve ser numerada com números romanos minúsculos,
+upper-roman: especifica que a lista deve ser numerada com números romanos maiúsculos,
+url("https://www.w3schools.com/css/img_tree.png"): especifica uma imagem como marcador de lista
+(list-style-position: especifica a posição do marcador de lista (antes ou depois do texto) ;
+ */
