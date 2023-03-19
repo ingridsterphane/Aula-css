@@ -14,10 +14,20 @@
     background-color: khaki;
 
 }
+.alternada li:hover{
+    font-weight: bolder;
+}
 
 
 
 /* COMENTÁRIOS
+hover: especifica um estado de um elemento quando o ponteiro do mouse está sobre o elemento :
+.alternada li:nth-child(odd){
+    background-color: lightblue;
+
+}           
+;
+font-weight: especifica a espessura da fonte: bolder: especifica que a fonte deve ser mais espessa do que a fonte pai;
 odd: especifica um elemento filho ímpar de um elemento pai;
 even: especifica um elemento filho par de um elemento pai;
 nth-child: especifica um elemento filho específico de um elemento pai;
