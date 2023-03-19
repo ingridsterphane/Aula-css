@@ -1,0 +1,26 @@
+.imagem {
+    background: url("1.jpg") no-repeat ;
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-size: contain;
+   
+}
+
+.imagem:hover{
+    background-position: 0px 50px;
+}
+
+.imagem:active{
+    background-position: 50px 50px;
+}
+
+/* COMENTÁRIOS
+active: quando eu clico no elemento ( com o botão  esquerdo (direito se a imagem tiver linkada
+ou tento arrastar a imagem) do mouse ) ;
+cover: a imagem de fundo é esticada para preencher todo o elemento ;
+background-size: contain; serve para colocar a imagem de fundo do tamanho do elemento;
+display: block; serve para colocar o elemento em uma linha sozinho;
+background-image: url("https://www.w3schools.com/css/img_tree.png") 
+serve para colocar uma imagem de fundo no elemento, tambem posso usar background  ;
+*/
