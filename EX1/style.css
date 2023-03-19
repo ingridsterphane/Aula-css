@@ -1,0 +1,50 @@
+.quadrado {
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: coral;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.quadrado1 {
+    left: 0px;
+    top: 0px;
+    background-color: darkslategray;
+}
+
+.quadrado2 {
+    right: 0px;
+    top: 0px;
+    background-color: crimson;
+}
+
+.quadrado3 {
+    left: 0px;
+    bottom: 0px;
+    background-color: darkgreen;
+}
+
+.quadrado4 {
+    right: 0px;
+    bottom: 0px;
+    background-color: darkorchid;
+}
+
+
+/* COMENTÁRIOS
+top: especifica a distância entre a borda superior do elemento e a borda superior do seu 
+ elemento pai. Se o elemento não tiver um elemento pai, a borda superior do elemento é 
+ posicionada em relação à borda superior da janela do navegador;
+bottom: especifica a distância entre a borda inferior do elemento e a borda inferior do seu 
+ elemento pai. Se o elemento não tiver um elemento pai, a borda inferior do elemento é 
+ posicionada em relação à borda inferior da janela do navegador;
+position relative: o elemento é posicionado de acordo com o fluxo normal do documento,
+ e depois deslocado de acordo com as propriedades top, right, bottom e left. O deslocamento 
+ não afeta a posição de outros elementos;
+position absolute: o elemento é posicionado de acordo com o fluxo normal do documento, e 
+ depois deslocado de acordo com as propriedades top, right, bottom e left. O deslocamento 
+ afeta a posição de outros elementos;
+*/
